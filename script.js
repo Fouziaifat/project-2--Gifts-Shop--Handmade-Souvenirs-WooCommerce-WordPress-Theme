@@ -14,3 +14,12 @@ navLinks.addEventListener("click", () => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
+const headerBoxes = document.querySelectorAll(".image-demo");
+headerBoxes.forEach((box) => {
+  box.addEventListener("mouseenter", () => {
+    box.style.backgroundPosition = "center bottom";
+  });
+  box.addEventListener("mouseleave", () => {
+    box.style.backgroundPosition = "center top";
+  });
+});
