@@ -1,3 +1,5 @@
+//website link - https://preview.themeforest.net/item/gifts-shop-responsive-woocommerce-wordpress-theme/full_screen_preview/20131278 //
+
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
